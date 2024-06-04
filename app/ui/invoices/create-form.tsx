@@ -12,7 +12,7 @@ import { createInvoice } from '@/app/lib/actions';
 export default function Form({
   customers,
 }: {
-  customers: customerField[];
+  customers: CustomerField[];
 }) {
   return (
     <form action={createInvoice}>
